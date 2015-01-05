@@ -9,23 +9,19 @@
 #import "ViewController.h"
 
 @interface ViewController () <UITextFieldDelegate>
+- (IBAction)nameAdd:(id)sender;
+- (IBAction)showLast:(id)sender;
+- (IBAction)showNext:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *nameEntry;
 @property (weak, nonatomic) IBOutlet UILabel *shownName;
 @property (weak, nonatomic) IBOutlet UIButton *lastButton;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
-- (IBAction)nameAdd:(id)sender;
-- (IBAction)showLast:(id)sender;
-- (IBAction)showNext:(id)sender;
-
 @end
 
 @implementation ViewController
 //local ivars
 NSMutableArray *listOfNames;
 int nameIndex;
-//@synthesize lastButton;
-//@synthesize nextButton;
-//@synthesize nameEntry;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,8 +30,8 @@ int nameIndex;
     //Make nameIndex to be zero
     nameIndex = 0;
     //Hide both of the showNext/showLast buttons
-    self.lastButton.hidden=true;
-    self.nextButton.hidden=true;
+//    self.lastButton.hidden=true;
+//    self.nextButton.hidden=true;
     //make nameEntry.delegate = self;
     self.nameEntry.delegate = self;
 }
@@ -61,7 +57,7 @@ int nameIndex;
     }
     //else if there are now more names in the list than nameIndex, then show the "Next" button.
     if ([listOfNames count] > 1) {
-        self.nextButton.hidden=FALSE;
+//        self.nextButton.hidden=FALSE;
     }
     //if the new name is "Wally" then run the following alert code:
     UIAlertView *gotWally = [[UIAlertView alloc] initWithTitle:@"Found Wally" message:@"There he is!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
@@ -70,8 +66,10 @@ int nameIndex;
     self.nameEntry.text = nil;
     
 }
+
 - (IBAction)showLast:(id)sender {
 }
+
 - (IBAction)showNext:(id)sender {
 }
 @end

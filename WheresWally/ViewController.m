@@ -8,8 +8,14 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
+@interface ViewController () <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *nameEntry;
+@property (weak, nonatomic) IBOutlet UILabel *shownName;
+@property (weak, nonatomic) IBOutlet UIButton *lastButton;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+- (IBAction)nameAdd:(id)sender;
+- (IBAction)showLast:(id)sender;
+- (IBAction)showNext:(id)sender;
 @end
 
 @implementation ViewController
@@ -24,4 +30,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)nameAdd:(id)sender {
+}
+
+- (IBAction)showLast:(id)sender {
+}
+- (IBAction)showNext:(id)sender {
+}
 @end

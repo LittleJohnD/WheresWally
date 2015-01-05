@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB84B8011A5AD1AE00039EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB84B8001A5AD1AE00039EA0 /* main.m */; };
+		DB84B8041A5AD1AE00039EA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB84B8031A5AD1AE00039EA0 /* AppDelegate.m */; };
+		DB84B8071A5AD1AE00039EA0 /* WheresWally.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB84B8051A5AD1AE00039EA0 /* WheresWally.xcdatamodeld */; };
+		DB84B80A1A5AD1AE00039EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB84B8091A5AD1AE00039EA0 /* ViewController.m */; };
+		DB84B80D1A5AD1AE00039EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB84B80B1A5AD1AE00039EA0 /* Main.storyboard */; };
+		DB84B80F1A5AD1AE00039EA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB84B80E1A5AD1AE00039EA0 /* Images.xcassets */; };
+		DB84B8121A5AD1AE00039EA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB84B8101A5AD1AE00039EA0 /* LaunchScreen.xib */; };
+		DB84B81E1A5AD1AE00039EA0 /* WheresWallyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB84B81D1A5AD1AE00039EA0 /* WheresWallyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB84B8181A5AD1AE00039EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB84B7F31A5AD1AE00039EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB84B7FA1A5AD1AE00039EA0;
+			remoteInfo = WheresWally;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB84B7FB1A5AD1AE00039EA0 /* WheresWally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheresWally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB84B7FF1A5AD1AE00039EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB84B8001A5AD1AE00039EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB84B8021A5AD1AE00039EA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB84B8031A5AD1AE00039EA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB84B8061A5AD1AE00039EA0 /* WheresWally.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WheresWally.xcdatamodel; sourceTree = "<group>"; };
+		DB84B8081A5AD1AE00039EA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB84B8091A5AD1AE00039EA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB84B80C1A5AD1AE00039EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB84B80E1A5AD1AE00039EA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB84B8111A5AD1AE00039EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB84B8171A5AD1AE00039EA0 /* WheresWallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheresWallyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB84B81C1A5AD1AE00039EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB84B81D1A5AD1AE00039EA0 /* WheresWallyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheresWallyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB84B7F81A5AD1AE00039EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB84B8141A5AD1AE00039EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB84B7F21A5AD1AE00039EA0 = {
+			isa = PBXGroup;
+			children = (
+				DB84B7FD1A5AD1AE00039EA0 /* WheresWally */,
+				DB84B81A1A5AD1AE00039EA0 /* WheresWallyTests */,
+				DB84B7FC1A5AD1AE00039EA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB84B7FC1A5AD1AE00039EA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB84B7FB1A5AD1AE00039EA0 /* WheresWally.app */,
+				DB84B8171A5AD1AE00039EA0 /* WheresWallyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB84B7FD1A5AD1AE00039EA0 /* WheresWally */ = {
+			isa = PBXGroup;
+			children = (
+				DB84B8021A5AD1AE00039EA0 /* AppDelegate.h */,
+				DB84B8031A5AD1AE00039EA0 /* AppDelegate.m */,
+				DB84B8081A5AD1AE00039EA0 /* ViewController.h */,
+				DB84B8091A5AD1AE00039EA0 /* ViewController.m */,
+				DB84B80B1A5AD1AE00039EA0 /* Main.storyboard */,
+				DB84B80E1A5AD1AE00039EA0 /* Images.xcassets */,
+				DB84B8101A5AD1AE00039EA0 /* LaunchScreen.xib */,
+				DB84B8051A5AD1AE00039EA0 /* WheresWally.xcdatamodeld */,
+				DB84B7FE1A5AD1AE00039EA0 /* Supporting Files */,
+			);
+			path = WheresWally;
+			sourceTree = "<group>";
+		};
+		DB84B7FE1A5AD1AE00039EA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB84B7FF1A5AD1AE00039EA0 /* Info.plist */,
+				DB84B8001A5AD1AE00039EA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB84B81A1A5AD1AE00039EA0 /* WheresWallyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB84B81D1A5AD1AE00039EA0 /* WheresWallyTests.m */,
+				DB84B81B1A5AD1AE00039EA0 /* Supporting Files */,
+			);
+			path = WheresWallyTests;
+			sourceTree = "<group>";
+		};
+		DB84B81B1A5AD1AE00039EA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB84B81C1A5AD1AE00039EA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB84B7FA1A5AD1AE00039EA0 /* WheresWally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB84B8211A5AD1AE00039EA0 /* Build configuration list for PBXNativeTarget "WheresWally" */;
+			buildPhases = (
+				DB84B7F71A5AD1AE00039EA0 /* Sources */,
+				DB84B7F81A5AD1AE00039EA0 /* Frameworks */,
+				DB84B7F91A5AD1AE00039EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheresWally;
+			productName = WheresWally;
+			productReference = DB84B7FB1A5AD1AE00039EA0 /* WheresWally.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB84B8161A5AD1AE00039EA0 /* WheresWallyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB84B8241A5AD1AE00039EA0 /* Build configuration list for PBXNativeTarget "WheresWallyTests" */;
+			buildPhases = (
+				DB84B8131A5AD1AE00039EA0 /* Sources */,
+				DB84B8141A5AD1AE00039EA0 /* Frameworks */,
+				DB84B8151A5AD1AE00039EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB84B8191A5AD1AE00039EA0 /* PBXTargetDependency */,
+			);
+			name = WheresWallyTests;
+			productName = WheresWallyTests;
+			productReference = DB84B8171A5AD1AE00039EA0 /* WheresWallyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB84B7F31A5AD1AE00039EA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "John Dyer";
+				TargetAttributes = {
+					DB84B7FA1A5AD1AE00039EA0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DB84B8161A5AD1AE00039EA0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DB84B7FA1A5AD1AE00039EA0;
+					};
+				};
+			};
+			buildConfigurationList = DB84B7F61A5AD1AE00039EA0 /* Build configuration list for PBXProject "WheresWally" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB84B7F21A5AD1AE00039EA0;
+			productRefGroup = DB84B7FC1A5AD1AE00039EA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB84B7FA1A5AD1AE00039EA0 /* WheresWally */,
+				DB84B8161A5AD1AE00039EA0 /* WheresWallyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB84B7F91A5AD1AE00039EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB84B80D1A5AD1AE00039EA0 /* Main.storyboard in Resources */,
+				DB84B8121A5AD1AE00039EA0 /* LaunchScreen.xib in Resources */,
+				DB84B80F1A5AD1AE00039EA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB84B8151A5AD1AE00039EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB84B7F71A5AD1AE00039EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB84B8071A5AD1AE00039EA0 /* WheresWally.xcdatamodeld in Sources */,
+				DB84B8041A5AD1AE00039EA0 /* AppDelegate.m in Sources */,
+				DB84B80A1A5AD1AE00039EA0 /* ViewController.m in Sources */,
+				DB84B8011A5AD1AE00039EA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB84B8131A5AD1AE00039EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB84B81E1A5AD1AE00039EA0 /* WheresWallyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB84B8191A5AD1AE00039EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB84B7FA1A5AD1AE00039EA0 /* WheresWally */;
+			targetProxy = DB84B8181A5AD1AE00039EA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB84B80B1A5AD1AE00039EA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB84B80C1A5AD1AE00039EA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB84B8101A5AD1AE00039EA0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB84B8111A5AD1AE00039EA0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB84B81F1A5AD1AE00039EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB84B8201A5AD1AE00039EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB84B8221A5AD1AE00039EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheresWally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB84B8231A5AD1AE00039EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheresWally/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB84B8251A5AD1AE00039EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WheresWallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheresWally.app/WheresWally";
+			};
+			name = Debug;
+		};
+		DB84B8261A5AD1AE00039EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WheresWallyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheresWally.app/WheresWally";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB84B7F61A5AD1AE00039EA0 /* Build configuration list for PBXProject "WheresWally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB84B81F1A5AD1AE00039EA0 /* Debug */,
+				DB84B8201A5AD1AE00039EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB84B8211A5AD1AE00039EA0 /* Build configuration list for PBXNativeTarget "WheresWally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB84B8221A5AD1AE00039EA0 /* Debug */,
+				DB84B8231A5AD1AE00039EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB84B8241A5AD1AE00039EA0 /* Build configuration list for PBXNativeTarget "WheresWallyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB84B8251A5AD1AE00039EA0 /* Debug */,
+				DB84B8261A5AD1AE00039EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB84B8051A5AD1AE00039EA0 /* WheresWally.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB84B8061A5AD1AE00039EA0 /* WheresWally.xcdatamodel */,
+			);
+			currentVersion = DB84B8061A5AD1AE00039EA0 /* WheresWally.xcdatamodel */;
+			path = WheresWally.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB84B7F31A5AD1AE00039EA0 /* Project object */;
+}

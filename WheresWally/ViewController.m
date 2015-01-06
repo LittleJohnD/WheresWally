@@ -27,11 +27,14 @@ int nameIndex;
     [super viewDidLoad];
     //Allocate and initialise listofNames as an empty list
     listOfNames = [[NSMutableArray alloc] init];
+    
     //Make nameIndex to be zero
     nameIndex = 0;
+    
     //Hide both of the showNext/showLast buttons
-//    self.lastButton.hidden=true;
-//    self.nextButton.hidden=true;
+    self.lastButton.hidden=true;
+    self.nextButton.hidden=true;
+    
     //make nameEntry.delegate = self;
     self.nameEntry.delegate = self;
 }
@@ -47,9 +50,11 @@ int nameIndex;
 }
 - (IBAction)nameAdd:(id)sender {
     //if the textField is not empty, add the name to the list of names
-    if ([self.nameEntry.text length] == 0){
-        [listOfNames addObject:self.nameEntry];
-    }
+    if ([self.nameEntry.text length] != 0){
+        [listOfNames addObject:self.nameEntry.text];
+    };
+    printf("nameEntry: %s \n", [self.nameEntry.text UTF8String]);
+    printf("Size of listOfNames: %d\n", [listOfNames count]);
     //if the list of names is now 1 name long, then put the name in the label and make nameIndex = 1
     if ([listOfNames count] > 0){
         self.shownName.text = [listOfNames objectAtIndex:0];
@@ -57,11 +62,13 @@ int nameIndex;
     }
     //else if there are now more names in the list than nameIndex, then show the "Next" button.
     if ([listOfNames count] > 1) {
-//        self.nextButton.hidden=FALSE;
+        self.nextButton.hidden=FALSE;
     }
     //if the new name is "Wally" then run the following alert code:
-    UIAlertView *gotWally = [[UIAlertView alloc] initWithTitle:@"Found Wally" message:@"There he is!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-    [gotWally show];
+    if ([self.nameEntry.text isEqualToString: @"Wally"]) {
+        UIAlertView *gotWally = [[UIAlertView alloc] initWithTitle:@"Found Wally" message:@"There he is!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [gotWally show];
+    }
     //Clear the name from the text field.
     self.nameEntry.text = nil;
     

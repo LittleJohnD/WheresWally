@@ -28,7 +28,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="showLast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GEF-mn-4UL"/>
+                                    <action selector="showLast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wDH-35-fnW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCV-zG-wK5">
@@ -59,9 +59,8 @@
                     </view>
                     <connections>
                         <outlet property="lastButton" destination="eTb-G7-VW1" id="pYy-pu-qFW"/>
-                        <outlet property="nameEntry" destination="c1y-8E-tef" id="ZSB-cU-XbN"/>
+                        <outlet property="nameEntry" destination="c1y-8E-tef" id="7fi-lb-59j"/>
                         <outlet property="nextButton" destination="KCV-zG-wK5" id="SBh-Tf-8Og"/>
-                        <outlet property="showLast" destination="eTb-G7-VW1" id="Wcg-No-yEW"/>
                         <outlet property="shownName" destination="TAe-W9-8bZ" id="o9M-u7-ujB"/>
                     </connections>
                 </viewController>

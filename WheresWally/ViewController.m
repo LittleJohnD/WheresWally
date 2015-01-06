@@ -53,8 +53,6 @@ int nameIndex;
     if ([self.nameEntry.text length] != 0){
         [listOfNames addObject:self.nameEntry.text];
     };
-    printf("nameEntry: %s \n", [self.nameEntry.text UTF8String]);
-    printf("Size of listOfNames: %d\n", [listOfNames count]);
     //if the list of names is now 1 name long, then put the name in the label and make nameIndex = 1
     if ([listOfNames count] > 0){
         self.shownName.text = [listOfNames objectAtIndex:0];
@@ -74,10 +72,35 @@ int nameIndex;
     
 }
 
-- (IBAction)showLast:(id)sender {
+- (IBAction)showNext:(id)sender {
+    //ifnameIndex<[listOfNamescount]{
+    if (nameIndex<[listOfNames count]) {
+        //increment nameIndex
+        nameIndex++;
+    }
+    //if it is the last name, hide the next button
+    if (nameIndex == [listOfNames count]) {
+        self.nextButton.hidden=TRUE;
+    }
+    //if it is not the first one, show the previous button show the name at nameIndex-1 on the label
+    if (nameIndex>0) {
+        self.lastButton.hidden=FALSE;
+        self.shownName.text = [listOfNames objectAtIndex:(nameIndex-1)];
+    }
 }
 
-- (IBAction)showNext:(id)sender {
+- (IBAction)showLast:(id)sender {
+    //Do showLast similarly to show/ hide buttons appropriately
+    if (nameIndex>0) {
+        nameIndex--;
+    }
+    if (nameIndex < [listOfNames count]) {
+        self.nextButton.hidden=FALSE;
+    }
+    if (nameIndex == 1) {
+        self.lastButton.hidden=TRUE;
+    }
+    self.shownName.text = [listOfNames objectAtIndex:(nameIndex-1)];
 }
 @end
 
